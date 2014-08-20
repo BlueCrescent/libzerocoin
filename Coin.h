@@ -99,7 +99,7 @@ public:
 	    READWRITE(randomness);
 	    READWRITE(serialNumber);
 	)
-private:
+protected:
 	const Params* params;
 	PublicCoin publicCoin;
 	Bignum randomness;
